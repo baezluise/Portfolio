@@ -61,10 +61,9 @@ ul {
   justify-content: center;
   list-style-type: none;
   padding: 10px;
-}
-
-li {
-  margin: 5px;
+  align-items: baseline;
+  gap: 15px;
+  margin: 0;
 }
 
 .arrow-button {
