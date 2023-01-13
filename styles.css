@@ -9,12 +9,14 @@ header {
   display: flex;
   width: 100%;
   align-content: space-between;
+  justify-content: space-between;
 }
 
 #nav {
-  text-align: right;
-  display: inline-block;
+  display: flex;
   justify-content: flex-end;
+  flex-direction: row-reverse;
+  align-items: right;
 }
 
 .text-container {
@@ -56,5 +58,11 @@ header {
 ul {
   display: flex;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: center;
+  list-style-type: none;
+  padding: 50px;
+}
+
+li {
+  margin: 10px;
 }
