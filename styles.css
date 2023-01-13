@@ -35,7 +35,7 @@ header {
   line-height: 28px;
   color: #28352f;
   display: inline-block;
-  margin-right:10px;
+  margin-right: 10px;
 }
 
 #description {
@@ -45,6 +45,7 @@ header {
   text-align: center;
   color: #172b4d;
 }
+
 li {
   display: flex;
   flex-direction: row;
