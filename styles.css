@@ -6,6 +6,8 @@
 }
 
 header {
+  display: flex;
+  width: 100%;
   align-content: space-between;
 }
 
@@ -16,6 +18,9 @@ header {
 }
 
 .text-container {
+  font-family: Inter;
+  display: flex;
+  flex-direction: column;
   font-style: normal;
   font-size: 40px;
   font-weight: 700;
@@ -29,25 +34,27 @@ header {
 }
 
 #welcome {
+  font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
   color: #28352f;
-  display: inline-block;
-  margin-right: 10px;
+  display: flex;
 }
 
 #description {
+  font-family: Inter;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
   text-align: center;
   color: #172b4d;
+  display: flex;
 }
 
-li {
+ul {
   display: flex;
-  flex-direction: row;
+  width: 100%;
   justify-content: space-evenly;
 }
