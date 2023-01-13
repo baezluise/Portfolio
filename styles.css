@@ -5,12 +5,18 @@
   height: 100vh;
 }
 
+header {
+  align-content: space-between;
+}
+
 #nav {
-    text-align: right;
+  text-align: right;
+  display:inline-block;
+  justify-content: flex-end;
 }
 
 .text-container {
-    font-family: Inter;
+    font-family: 'Inter';
     font-style: normal;
     font-size: 40px;
     font-weight: 700;
@@ -21,7 +27,7 @@
 }
  
 #sdsection {
-  color: #36B37E;;
+  color: #36B37E;
 }
 
 #welcome {
@@ -31,6 +37,7 @@
     font-size: 20px;
     line-height: 28px;
     color: #28352F;
+    display:inline-block;margin-right:10px;
 }
 
 #description {
