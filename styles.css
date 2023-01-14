@@ -83,6 +83,7 @@ ul {
   margin: auto;
 }
 
+/* css for the second part of the project*/
 .works {
   align-items: center;
   text-align: center;
@@ -103,7 +104,7 @@ ul {
 }
 
 .card-name {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -112,7 +113,7 @@ ul {
 }
 
 .technologies {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -124,7 +125,6 @@ ul {
 .see-project {
   padding: 12px;
   gap: 10px;
-
   width: 122px;
   height: 48px;
   background: #36b37f;
@@ -134,4 +134,29 @@ ul {
 .about-me {
   align-items: center;
   text-align: center;
+}
+
+.about-me-title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.about-me-description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+}
+
+.resume-button {
+  width: 159px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
 }
