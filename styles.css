@@ -88,6 +88,49 @@ ul {
   text-align: center;
 }
 
+.recent-works {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.card-1 {
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+.card-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3a4a42;
+}
+
+.technologies {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #3a4a42;
+}
+
+.see-project {
+  padding: 12px;
+  gap: 10px;
+
+  width: 122px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
+}
+
 .about-me {
   align-items: center;
   text-align: center;
