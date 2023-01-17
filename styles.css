@@ -149,6 +149,14 @@ ul {
   font-size: 17px;
 }
 
+.see-project:hover {
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.see-project:active {
+  background: #008552;
+}
+
 .about-me {
   align-items: center;
   text-align: center;
@@ -187,4 +195,12 @@ ul {
   font-weight: 500;
   font-size: 17px;
   color: #fff;
+}
+
+.resume-button:hover {
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.resume-button:active {
+  background: #008552;
 }
