@@ -165,7 +165,7 @@ ul {
 }
 
 .see-project:hover {
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .see-project:active {
@@ -213,7 +213,7 @@ ul {
 }
 
 .resume-button:hover {
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .resume-button:active {
@@ -233,7 +233,6 @@ ul {
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
-  letter-spacing: 0em;
   color: #344563;
 }
 
