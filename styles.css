@@ -5,6 +5,14 @@
   height: 100vh;
 }
 
+body {
+  height: 6715px;
+  width: 375px;
+  left: -17px;
+  top: 10429px;
+  margin: auto;
+}
+
 header {
   display: flex;
   width: 100%;
@@ -87,7 +95,6 @@ ul {
 
 .works {
   display: grid;
-  align-items: center;
   text-align: center;
   justify-content: center;
 }
@@ -113,6 +120,8 @@ ul {
   text-align: center;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+  height: 474px;
+  width: 327px;
 }
 
 .card-name {
@@ -209,4 +218,45 @@ ul {
 
 .resume-button:active {
   background: #008552;
+}
+
+.card-2 {
+  background: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+  height: 352px;
+  width: 327px;
+}
+
+.card-name-2 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  color: #344563;
+}
+
+.technologies-2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.tech-tag-2 {
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.tag-0 {
+  order: 0;
+}
+
+.tag-1 {
+  order: 1;
 }
