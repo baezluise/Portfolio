@@ -264,7 +264,6 @@ body .about-me-title {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #36b37e;
-  display: flex;
   flex-wrap: wrap;
 }
 
