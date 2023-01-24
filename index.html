@@ -151,5 +151,24 @@
     </div>
     </ul>
     </section>
+    <form action="https://formspree.io/f/{mobile_portfolio_form}" method="post">
+      <ul class="form-list">
+        <li>
+          <label for="name"></label>
+          <input type="text" id="name" name="user_name" placeholder="Full name" maxlength="30" required>
+        </li>
+        <li>
+          <label for="mail"></label>
+          <input type="email" id="mail" name="user_email" placeholder="Email address" required>
+        </li>
+        <li>
+          <label for="msg"></label>
+          <textarea id="msg" name="user_message" placeholder="Enter text here" maxlength="500" required></textarea>
+        </li>
+        <li class="submit-button">
+          <button type="submit" id="get-in-touch">Get in touch</button>
+        </li>
+      </ul>
+    </form>
 </body>
 </html>
