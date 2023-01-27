@@ -491,6 +491,12 @@ form {
     flex-wrap: wrap;
   }
 
+  .about-me-container {
+    background-image: url("about-right-image.png"), url("about-left-image.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+  }
+
   .about-me-description {
     width: 50vw;
   }
@@ -501,13 +507,15 @@ form {
     align-items: center;
     text-align: center;
     flex-direction: row;
-    /*background-image: url("contact-right-image.png");
-    background-repeat: no-repeat;
-    background-position: left;*/
+    background-image: url("contact-left-image.png"),
+      url("contact-right-image.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, right;
   }
 
   .para-form {
     width: 40vw;
+    margin-right: 20px;
   }
 
   #name {
