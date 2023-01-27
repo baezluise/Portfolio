@@ -431,7 +431,7 @@ form {
 }
 
 .desktop-menu {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -507,10 +507,15 @@ form {
     align-items: center;
     text-align: center;
     flex-direction: row;
-    background-image: url("contact-left-image.png"),
-      url("contact-right-image.png");
-    background-repeat: no-repeat, no-repeat;
-    background-position: left, right;
+    background-image: url("contact-left-image.png");
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  .contact-container-2 {
+    background-image: url("contact-right-image.png");
+    background-repeat: no-repeat;
+    background-position: right;
   }
 
   .para-form {
