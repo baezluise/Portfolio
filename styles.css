@@ -400,10 +400,11 @@ form {
   height: 48px;
   background: #36b37f;
   border-radius: 4px;
+  border: none;
 }
 
 #get-in-touch:hover {
-  box-shadow: rgba(54, 179, 127, 0.24);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 #get-in-touch:active {
@@ -429,6 +430,25 @@ form {
   margin-bottom: 300px;
 }
 
+.desktop-menu {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #172b4d;
+}
+
+.desktop-menu-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
 @media only screen and (min-width: 768px) {
   #welcome {
     display: none;
@@ -445,6 +465,18 @@ form {
     height: 100vh;
   }
 
+  .headline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #description {
+    width: 50vw;
+  }
+
   .card-container {
     display: flex;
     flex-direction: row;
@@ -459,7 +491,19 @@ form {
     flex-wrap: wrap;
   }
 
-  .form-list {
+  .about-me-description {
+    width: 50vw;
+  }
+
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    /*background-image: url("contact-right-image.png");
+    background-repeat: no-repeat;
+    background-position: left;*/
   }
 
   .para-form {
@@ -478,7 +522,17 @@ form {
     width: 40vw;
   }
 
+  #get-in-touch {
+    float: left;
+  }
+
   .mail-form {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .desktop-menu {
     display: none;
   }
 }

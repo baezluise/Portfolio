@@ -18,7 +18,14 @@
     </nav>
   </header>
   <section>
-    <div id="background">
+    <div class="desktop-menu">
+      <ul class="desktop-menu-list">
+        <li>Portfolio</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+    <div class="headline-container" id="background">
       <h1 class="text-container" id="hisection">
         Hey there. I’m Luis
         <h2 class="text-container" id="sdsection">
@@ -34,10 +41,10 @@
         <li><a href="#"><img src="github.svg"></a></li>
         <li><a href="#"><img src="angellist.svg"></a></li>
       </ul>
-    </div>
-      <div class="button">
-      <img src="arrow-button.svg" class="arrow-button"><a href="#"></a></img>
+      <div>
+        <img class="button" src="arrow-button.svg" class="arrow-button"><a href="#"></a></img>
       </div>
+    </div>
     </section>
     <section class="works">
       <h1 class="recent-works">My Recent<br>Works</h1>
@@ -152,9 +159,10 @@
     </div>
     </ul>
     </section>
+  <div class="contact-container">
+    <div class="para-form">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</div> 
     <form class="contact-form" action="https://formspree.io/f/mpzewvlb" method="post">
       <ul class="form-list">
-        <li class="para-form">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</li>
         <li>
           <label for="name"></label>
           <input type="text" id="name" name="user_name" placeholder="Full name" maxlength="30" required>
@@ -172,6 +180,7 @@
         </li>
       </ul>
     </form>
+  </div>   
 
     <footer class="social-media-footer">
       <ul class="social-media-form">
