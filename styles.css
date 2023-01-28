@@ -308,7 +308,7 @@ form {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 52px;
   text-align: center;
   color: #172b4d;
@@ -317,12 +317,6 @@ form {
 
 .form-list {
   list-style-type: none;
-}
-
-.contact-form {
-  background-image: url("form-image.png");
-  background-repeat: no-repeat;
-  background-position: right bottom;
 }
 
 #name {
@@ -507,15 +501,18 @@ form {
     align-items: center;
     text-align: center;
     flex-direction: row;
-    background-image: url("contact-left-image.png");
+    /*background-image: url("contact-left-image.png");*/
     background-repeat: no-repeat;
     background-position: left;
+    width: 50% !important;
   }
 
   .contact-container-2 {
-    background-image: url("contact-right-image.png");
+    /*background-image: url("contact-right-image.png");*/
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left;
+    display: flex;
+    justify-content: center;
   }
 
   .para-form {
@@ -542,10 +539,32 @@ form {
   .mail-form {
     display: none;
   }
+
+  .submit-button-container {
+    margin-top: 15px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .desktop-menu {
     display: none;
+  }
+
+  .contact-form {
+    background-image: url("form-image.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  .para-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .submit-button-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
   }
 }
