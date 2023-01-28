@@ -501,22 +501,19 @@ form {
     align-items: center;
     text-align: center;
     flex-direction: row;
-    /*background-image: url("contact-left-image.png");*/
+    background-image: url("contact-left-image.png");
     background-repeat: no-repeat;
     background-position: left;
-    width: 50% !important;
   }
 
   .contact-container-2 {
-    /*background-image: url("contact-right-image.png");*/
+    background-image: url("contact-right-image.png");
     background-repeat: no-repeat;
-    background-position: left;
-    display: flex;
-    justify-content: center;
+    background-position: right;
   }
 
   .para-form {
-    width: 40vw;
+    width: 30vw;
     margin-right: 20px;
   }
 
