@@ -35,14 +35,14 @@ Portfolio is a project to show my programming skills to potential employers and 
 
 It use:
 
-- Web responsive design 
-- Use flexbox to stylize 
+- Web responsive design
+- Use flexbox to stylize
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](http://127.0.0.1:5500/)
+- [Live Demo Link](https://baezluise.github.io./)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,13 +56,13 @@ In order to run this project you need:
 
 - A browser
 - A Github account
+
 ### Setup
 
 Clone this repository to your desired folder:
 
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-
+cd my-folder
+git clone git@github.com:myaccount/my-project.git
 
 ### Install
 
@@ -89,6 +89,7 @@ No need for deployments.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
+
 👤 **Author**
 
 - GitHub: [@baezluise](https://github.com/baezluise)

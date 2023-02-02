@@ -36,6 +36,10 @@ header {
   color: #172b4d;
 }
 
+.text-container:hover {
+  font-size: 40px;
+}
+
 #sdsection {
   color: #36b37e;
 }
@@ -441,17 +445,6 @@ form {
   justify-content: center;
   flex-direction: row;
   gap: 30px;
-}
-
-.text-container {
-  font-size: 20px;
-  transition-property: font-size;
-  transition-duration: 4s;
-  transition-delay: 2s;
-}
-
-.text-container:hover {
-  font-size: 40px;
 }
 
 @media only screen and (min-width: 768px) {
