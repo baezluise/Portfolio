@@ -26,6 +26,8 @@
 
 Portfolio is a project to show my programming skills to potential employers and collaborators. It'll keep growing every week with my Microverse assignments.
 
+For a broader explanation you can wacth this presentation video: [Link](https://www.loom.com/share/84a6d6c871d24fc09da74771e645f946).
+
 ## 🛠 Built With <a name="built-with"></a>
 
 - HTML
