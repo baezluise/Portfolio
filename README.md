@@ -22,7 +22,7 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Hello-Microverse <a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
 Portfolio is a project to show my programming skills to potential employers and collaborators. It'll keep growing every week with my Microverse assignments.
 
