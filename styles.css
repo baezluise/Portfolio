@@ -24,6 +24,29 @@ header {
   padding: 10px;
 }
 
+.link {
+  display: none;
+}
+
+.link a:hover {
+  color: #ddd;
+}
+
+#menu-list {
+  list-style-type: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: flex-start;
+  color: #3a4a42;
+}
+
 .text-container {
   font-family: "Inter", sans-serif;
   display: flex;
